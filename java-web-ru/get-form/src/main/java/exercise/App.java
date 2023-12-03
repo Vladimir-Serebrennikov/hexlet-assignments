@@ -22,7 +22,7 @@ public final class App {
         app.get("/users", ctx -> {
             var term = ctx.queryParam("term");
             List<User> users;
-            if(term != null) {
+            if (term != null) {
                 users = USERS.stream()
                         .filter(c -> StringUtils.startsWithIgnoreCase(c.getFirstName(), term))
                         .toList();
