@@ -30,7 +30,7 @@ public final class App {
                 users = USERS;
             }
             var page = new UsersPage(users, term);
-            ctx.render("/users/index.jte", Collections.singletonMap("page", page));
+            ctx.render("users/index.jte", Collections.singletonMap("page", page));
 
         });
         // END
