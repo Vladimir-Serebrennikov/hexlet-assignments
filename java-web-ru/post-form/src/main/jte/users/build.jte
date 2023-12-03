@@ -1,13 +1,13 @@
 <form action="/users" method="post">
     <div>
         <label>
-            Имя
+            Firstname
             <input type="text" name="firstname" />
         </label>
     </div>
     <div>
         <label>
-            Фамилия
+            Lastname
             <input type="text" name="lastname" />
         </label>
     </div>
@@ -19,9 +19,9 @@
     </div>
     <div>
         <label>
-            Пароль
+            Password
             <input type="password" required name="password" />
         </label>
     </div>
-    <input type="submit" value="Зарегистрировать" />
+    <input type="submit" value="Send" />
 </form>
