@@ -2,13 +2,13 @@
     <div>
         <label>
             Firstname
-            <input type="text" name="firstname" />
+            <input type="text" name="firstName" />
         </label>
     </div>
     <div>
         <label>
             Lastname
-            <input type="text" name="lastname" />
+            <input type="text" name="lastName" />
         </label>
     </div>
     <div>
