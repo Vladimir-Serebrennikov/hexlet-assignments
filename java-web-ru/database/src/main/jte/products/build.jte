@@ -34,5 +34,5 @@
                 <input type="submit" class="btn btn-primary" value="Сохранить" />
             </form>
         </div>
-    `,
+    `
 )
